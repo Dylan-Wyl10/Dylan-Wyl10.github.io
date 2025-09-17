@@ -9,28 +9,30 @@ redirect_from:
 
 {% include base_path %}
 
+Here is my full CV: [Yilin Wang's Resume](../assets/Resume_YilinWang.pdf)
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Intelligent Transportation System, Purdue University, 2027 (expected)
+* M.S. in Advance Infrastructure System, Carnegie Mellon  University, 2021
+* B.S. in Civil Engineering, Tongji University, 2019
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+#* Spring 2024: Academic Pages Collaborator
+  #* GitHub University
+  #* Duties includes: Updates and improvements to template
+  #* Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Fall 2021-Present: Research Assistant
+  * Purdue University
+  * Research Area: Connected and Automated Vehicle, Cooperative Perception, V2X Communication
+  * Supervisor: Professor Yiheng Feng
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Jan.2020 - Dec.2020: Research Assistant
+  * Carnegie Mellon University
+  * Duties included: Natural Language Processing
+  * Supervisor: Professor Pingbo Tang
   
 Skills
 ======
