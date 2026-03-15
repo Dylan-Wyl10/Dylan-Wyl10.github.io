@@ -1,6 +1,6 @@
 ---
 title: 'Live V2X Transit Signal Priority Demo at UMTRI 60th Anniversary Symposium'
-date: 2025-03-14
+date: 2024-12-03
 tags:
   - V2X
   - Transit Signal Priority
