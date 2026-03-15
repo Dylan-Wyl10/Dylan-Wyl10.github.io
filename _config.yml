@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "HomePage"
 title_separator          : "-"
 name                     : &name "Yilin Wang"
-description              : &description "personal description"
+description              : &description "Yilin Wang - Ph.D. Candidate at Purdue University. Research in cooperative perception, Physical AI, and autonomous driving."
 url                      : https://dylan-wyl10.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Dylan-Wyl10/Dylan-Wyl10.github.io"
@@ -25,8 +25,8 @@ author:
   avatar           : "bio-photo.jpg"
   name             : "Yilin Wang"
   pronouns         : # example: "he/him"  
-  bio              : "Welcome to Yilin's Website"
-  location         : "Earth"
+  bio              : "Ph.D. Candidate @ Purdue | Cooperative Perception, Physical AI, Autonomous Driving"
+  location         : "West Lafayette, IN"
   employer         : "Purdue University"
   uri              : # URL
   email            : "wang4517@purdue.edu" 
@@ -47,13 +47,13 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "Dylan-Wyl10"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -62,7 +62,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "dylanwyl"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
