@@ -1,7 +1,7 @@
 ---
 title: "IDM-Follower: A Model-Informed Deep Learning Method for Car-Following Trajectory Prediction"
 collection: publications
-category: journals
+category: manuscripts
 permalink: /publication/2024-idm-follower
 date: 2024-02-17
 venue: 'IEEE Transactions on Intelligent Vehicles'

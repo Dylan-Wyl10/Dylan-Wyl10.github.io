@@ -1,7 +1,7 @@
 ---
 title: "Cooperative Perception System for Aiding Connected and Automated Vehicle Navigation and Improving Safety"
 collection: publications
-category: journals
+category: manuscripts
 permalink: /publication/2024-cooperative-perception
 date: 2024-09-01
 venue: 'Transportation Research Record'

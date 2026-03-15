@@ -1,7 +1,7 @@
 ---
 title: "Serviceability evaluation of highway tunnels based on data mining and machine learning: A case study of continental United States"
 collection: publications
-category: journals
+category: manuscripts
 permalink: /publication/2023-tunnel-serviceability
 date: 2023-12-01
 venue: 'Tunneling and Underground Space Technology'
