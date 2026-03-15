@@ -11,7 +11,7 @@ Hi, I'm Yilin (Dylan) Wang—a Ph.D. candidate in the Lyles School of Civil & Co
 
 About Me
 ======
-I received my Bachelor's degree from Tongji University and Master of Science from Carnegie Mellon University. I am currently a Simulation Development Engineer Intern at [SaferDrive.AI](https://saferdrive.ai), where I work on [TeraSim](https://github.com/mcity/TeraSim)—a city-scale agentic world model platform for Physical AI and autonomous vehicle safety validation. My work on the NVIDIA GTC 2025 San Jose Demo was selected for NVIDIA CEO Jensen Huang's keynote presentation.
+I received my Bachelor's degree from Tongji University and Master of Science from Carnegie Mellon University. My research lies at the intersection of **cooperative perception**, **Physical AI**, and **autonomous driving**, where I contribute to building intelligent transportation systems that bridge academic research and industry deployment. I am currently working at [SaferDrive.AI](https://saferdrive.ai) on city-scale simulation and neural network-based driving behavior modeling for autonomous vehicle safety validation.
 
 You can find my CV here: [Yilin Wang's Resume](../assets/Resume_YilinWang.pdf)
 
