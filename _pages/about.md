@@ -11,7 +11,9 @@ Hi, I'm Yilin (Dylan) Wang—a Ph.D. candidate in the Lyles School of Civil & Co
 
 About Me
 ======
-I received my Bachelor's degree from Tongji University and Master of Science from Carnegie Mellon University. My research lies at the intersection of **cooperative perception**, **Physical AI**, and **autonomous driving**, where I contribute to building intelligent transportation systems that bridge academic research and industry deployment. I am currently working at [SaferDrive.AI](https://saferdrive.ai) on developing the foundation model for the agentic world model on autonomous vehicle safety validation.
+With a multidisciplinary background spanning **civil engineering** (B.S., Tongji University), **smart city and deep learning** (M.S., Carnegie Mellon University), and **intelligent transportation systems** (Ph.D., Purdue University), I bring a unique cross-domain perspective to solving complex problems at the intersection of infrastructure, AI, and autonomy. My research lies at the intersection of **cooperative perception**, **Physical AI**, and **autonomous driving**, where I contribute to building intelligent systems that bridge academic research and industry deployment.
+
+I am currently working at [SaferDrive.AI](https://saferdrive.ai) on developing the foundation model for the agentic world model on autonomous vehicle safety validation. **I am actively seeking Research Scientist positions in both academia and industrial research institutions**, where I can leverage my interdisciplinary expertise to advance the frontiers of autonomous systems, cooperative perception, and AI-driven transportation.
 
 You can find my CV here: [Yilin Wang's Resume](../assets/Resume_YilinWang.pdf)
 
