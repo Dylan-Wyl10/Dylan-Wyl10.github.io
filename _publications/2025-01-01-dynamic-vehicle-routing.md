@@ -8,4 +8,4 @@ venue: 'Transportation Research Board Annual Meeting 2026'
 citation: '<b>Yilin Wang</b>, Yiheng Feng* (2025). &quot;A Cooperative Perception Based Dynamic Vehicle Routing Framework for Urban Traffic Monitoring.&quot; <i>Transportation Research Board Annual Meeting 2026</i>, Poster Presentation.'
 ---
 
-We apply Cell Transmission Model (CTM) for traffic state prediction and propose a comprehensive MILP formulation for dynamic vehicle routing considering traffic monitoring performance. Also in submission to *Transportation Research: Part B*.
+We apply Cell Transmission Model (CTM) for traffic state prediction and propose a comprehensive MILP formulation for dynamic vehicle routing considering traffic monitoring performance. An extended version, *RoboSense: Leveraging Robotaxi Fleets as Drive-by Sensors for Urban Traffic Monitoring* (Yilin Wang, Yiheng Feng), is under review at *Transportation Research Part B*.

@@ -13,7 +13,7 @@ Here is my full CV: [Yilin Wang's Resume](../assets/Resume_YilinWang.pdf)
 
 Education
 ======
-* Ph.D. in Civil Engineering (Intelligent Transportation System), Purdue University, 2026 (expected)
+* Ph.D. in Civil Engineering (Intelligent Transportation System), Purdue University, Dec 2026 (expected)
   * Research Area: Connected and Automated Vehicle, Cooperative Perception, Physics-informed Machine Learning, Network Operation and Control
   * GPA: 3.8/4.00
 * M.S. in Advanced Infrastructure System, Carnegie Mellon University, 2020
@@ -24,11 +24,12 @@ Education
 
 Work Experience
 ======
-* Dec 2024 - Present: **Simulation Development Engineer Intern**
-  * SaferDrive.AI, Ann Arbor, MI
-  * Developed and maintained TeraSim, a city-scale traffic simulation platform for AV safety validation
-  * Refactored the CNDE architecture for neural network-based driving behavior model integration
-  * Led the San Jose GTC Demo, selected for NVIDIA CEO Jensen Huang's GTC 2025 keynote
+* Dec 2025 - Jun 2026: **Simulation Development Engineer Intern**
+  * Inchor (SaferDrive AI), Ann Arbor, MI
+  * Developed and maintained TeraSim, an open-source city-scale traffic simulation platform for autonomous vehicle safety validation built upon SUMO
+  * Implemented a full-stack Driving Foundation Model into product
+  * Led a joint project with NVIDIA and the City of San Jose on agent-driven Smart City operation
+  * Initiated and developed Agent-Sim, an agentic world model for autonomous driving safety validation
   * Supervisor: Professor Henry Liu
 
 * Fall 2021 - Present: **Research Assistant**
