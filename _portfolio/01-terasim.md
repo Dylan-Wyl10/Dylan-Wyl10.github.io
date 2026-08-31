@@ -15,9 +15,10 @@ TeraSim is a city-scale simulation platform serving as the foundational infrastr
 - Refactored the CNDE architecture from a dual-state management system to a stateless prediction pipeline, where TeraSim manages all vehicle states and CNDE operates as a pure prediction function.
 - Implemented vehicle state synchronization, history tensor construction, and coordinate transformation for large-scale MotionTransformer inference.
 
-## Milestone — NVIDIA GTC 2025 San Jose Demo
-- Led the development of a city-scale urban simulation demo under the NVIDIA Metropolis Blueprint, building an integrated "City Operations Agent" and digital twin that can perceive, simulate, and optimize traffic operations for Smart City applications.
+## Milestones — NVIDIA & City of San Jose Joint Project
+- Led a joint project with NVIDIA and the City of San Jose on agent-driven Smart City operation, building an integrated "City Operations Agent" and digital twin that can perceive, simulate, and optimize traffic operations.
 - Designed and implemented the full simulation pipeline including city-scale vehicle injection, dynamic routing, and multi-phase demo orchestration.
-- Selected for NVIDIA CEO Jensen Huang's GTC 2025 keynote presentation, with follow-up proof-of-concept and city-level implementation phases in progress.
+- **Mar 2026**: Active deployment with NVIDIA and the City of San Jose as an Agentic Incident-to-Operation pipeline, bringing TeraSim from simulation into real-world city operations.
+- **Jun 2026**: First draft release of Agent-Sim, utilizing LLMs and VLMs for safety-critical scenario generation.
 
 **Tech Stack**: Python, SUMO, PyTorch, CUDA, Docker, FastAPI

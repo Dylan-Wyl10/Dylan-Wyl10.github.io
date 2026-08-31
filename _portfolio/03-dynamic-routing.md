@@ -5,7 +5,7 @@ collection: portfolio
 ---
 
 **Role**: Individual Research Project
-**Period**: Apr 2023 – Aug 2025
+**Period**: Apr 2023 – Jun 2026
 **Code**: [GitHub](https://github.com/Dylan-Wyl10/Route_TSC_CART)
 
 ## Project 1: Dynamic Routing on CAVs for Improving Network Coverage
@@ -15,8 +15,9 @@ collection: portfolio
 - **Methodology**: Heuristic optimization, SUMO simulation, link-based travel time estimation.
 - **Outcome**: Accepted by [TRB Annual Meeting 2024](https://www.nationalacademies.org/event/806_01-2024_trb-annual-meeting) as poster presentation.
 
-## Project 2: Dynamic Vehicle Routing Framework for Urban Traffic Monitoring
-- Applied Cell Transmission Model (CTM) for traffic state prediction and road network representation considering CAV detection maneuver.
-- Proposed a comprehensive MILP formulation considering the performance of traffic monitoring as well as dynamic vehicle routing.
-- Conducted microscopic simulation and evaluations under various scenarios.
-- **Outcome**: Under review at *Transportation Research: Part B*.
+## Project 2: RoboSense — Leveraging Robotaxi Fleets as Drive-by Sensors for Urban Traffic Monitoring
+- Proposed a dynamic robotaxi routing framework that explicitly incorporates traffic monitoring as an objective, treating robotaxi fleets as cooperative drive-by sensors.
+- Introduced a cell-based network representation aligned with robotaxi sensing capabilities (via the Cell Transmission Model) and a cell-level metric quantifying spatiotemporal coverage.
+- Formulated a mixed-integer linear program (MILP) that jointly minimizes time-dependent travel time and maximizes traffic monitoring performance.
+- Evaluated on a 5×5 urban grid network in SUMO across robotaxi market penetration rates (2%, 5%, 10%); with appropriate objective weights, monitoring performance and robotaxi average speed improve simultaneously — a win-win that could incentivize operators to contribute vehicles as drive-by sensors.
+- **Outcome**: *RoboSense: Leveraging Robotaxi Fleets as Drive-by Sensors for Urban Traffic Monitoring* (Yilin Wang, Yiheng Feng), under review at *Transportation Research Part B*.
