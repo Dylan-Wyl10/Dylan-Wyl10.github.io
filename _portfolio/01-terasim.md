@@ -1,11 +1,11 @@
 ---
 title: "TeraSim: A City-Scale Agentic World Model Platform for Physical AI"
-excerpt: "Core developer at SaferDrive.AI. A city-scale simulation platform serving as foundational infrastructure for agentic world models under the Physical AI framework."
+excerpt: "Core developer at Inchor (SaferDrive AI). A city-scale simulation platform serving as foundational infrastructure for agentic world models under the Physical AI framework."
 collection: portfolio
 ---
 
-**Role**: Core Developer | SaferDrive.AI
-**Period**: Dec 2024 – Present
+**Role**: Core Developer | Inchor (SaferDrive AI)
+**Period**: Dec 2025 – Present
 
 ## Overview
 TeraSim is a city-scale simulation platform serving as the foundational infrastructure for agentic world models under the Physical AI framework, enabling naturalistic and adversarial testing of autonomous vehicles at urban scale.
