@@ -4,6 +4,7 @@ excerpt: "A dynamic robotaxi routing framework that turns centrally controlled f
 collection: portfolio
 redirect_from:
   - /portfolio/03-dynamic-routing/
+  - /portfolio/03-robosense/
 ---
 
 **Authors**: Yilin Wang, Yiheng Feng (Purdue University)
