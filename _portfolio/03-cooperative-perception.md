@@ -2,6 +2,8 @@
 title: "Developing A Cooperative Perception System"
 excerpt: "Project leader on a CCAT-funded cooperative perception system connecting roadside LiDAR and CAV sensors for improved road safety."
 collection: portfolio
+redirect_from:
+  - /portfolio/02-cooperative-perception/
 ---
 
 **Role**: Project Leader | Funded by Center of Connected and Automated Transportation
