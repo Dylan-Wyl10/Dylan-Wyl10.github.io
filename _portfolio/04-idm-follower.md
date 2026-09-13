@@ -1,11 +1,14 @@
 ---
 title: "IDM-Follower: A Physics-Informed Neural Network Model for Trajectory Prediction"
-excerpt: "Integrating Intelligent Driving Model (IDM) into deep learning for robust car-following trajectory prediction. [GitHub](https://github.com/Dylan-Wyl10/IDMFollower)"
+excerpt: "Integrating Intelligent Driving Model (IDM) into deep learning for robust car-following trajectory prediction."
 collection: portfolio
+project_period: "Jan 2022 – Feb 2024"
+paper_url: "https://ieeexplore.ieee.org/abstract/document/10440530"
+github_url: "https://github.com/Dylan-Wyl10/IDMFollower"
 ---
 
 **Role**: Individual Research Project
-**Period**: Jan 2022 – Feb 2024
+**Period**: {{ page.project_period }}
 **Code**: [GitHub](https://github.com/Dylan-Wyl10/IDMFollower)
 
 ## Overview
