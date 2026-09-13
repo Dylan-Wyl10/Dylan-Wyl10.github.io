@@ -2,12 +2,14 @@
 title: "Developing A Cooperative Perception System"
 excerpt: "Project leader on a CCAT-funded cooperative perception system connecting roadside LiDAR and CAV sensors for improved road safety."
 collection: portfolio
+project_period: "Jan 2023 – Present"
+paper_url: "https://journals.sagepub.com/doi/abs/10.1177/03611981241252779"
 redirect_from:
   - /portfolio/02-cooperative-perception/
 ---
 
 **Role**: Project Leader | Funded by Center of Connected and Automated Transportation
-**Period**: Jan 2023 – Present
+**Period**: {{ page.project_period }}
 
 ## Phase 1: Cooperative Perception for CAV Navigation and Safety
 - Built a cooperative perception system connected by V2X between roadside LiDAR and CAV sensors.

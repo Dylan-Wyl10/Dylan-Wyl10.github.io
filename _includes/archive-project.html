@@ -1,0 +1,23 @@
+{% assign project = include.project %}
+<div class="list__item">
+  <article class="archive__item project__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <h2 class="archive__item-title project__title" itemprop="headline">
+      <span class="project__index">{{ include.index }}.</span>
+      <a href="{{ project.url | relative_url }}" rel="permalink">{{ project.title | escape }}</a>
+    </h2>
+    <div class="project__meta">
+      {% if project.project_period %}
+        <span class="project__period"><i class="fas fa-calendar-alt" aria-hidden="true"></i> {{ project.project_period | escape }}</span>
+      {% endif %}
+      {% if project.paper_url %}
+        <a href="{{ project.paper_url | escape }}" aria-label="{{ project.paper_label | default: 'Paper' | escape }} for {{ project.title | escape }}"><i class="fas fa-file-alt" aria-hidden="true"></i> {{ project.paper_label | default: 'Paper' | escape }}</a>
+      {% endif %}
+      {% if project.github_url %}
+        <a href="{{ project.github_url | escape }}" aria-label="GitHub repository for {{ project.title | escape }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+      {% endif %}
+    </div>
+    {% if project.excerpt %}
+      <div class="archive__item-excerpt" itemprop="description">{{ project.excerpt | markdownify }}</div>
+    {% endif %}
+  </article>
+</div>

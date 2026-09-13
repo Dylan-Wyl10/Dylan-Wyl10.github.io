@@ -1,7 +1,11 @@
 ---
 title: "RoboSense: Leveraging Robotaxi Fleets as Drive-by Sensors for Urban Traffic Monitoring"
-excerpt: "A dynamic robotaxi routing framework that turns centrally controlled fleets into cooperative drive-by sensors for urban traffic monitoring. [arXiv](https://arxiv.org/abs/2609.06813) · [GitHub](https://github.com/Dylan-Wyl10/RoboSense)"
+excerpt: "A dynamic robotaxi routing framework that turns centrally controlled fleets into cooperative drive-by sensors for urban traffic monitoring."
 collection: portfolio
+project_period: "Apr 2023 – Jun 2026"
+paper_url: "https://arxiv.org/abs/2609.06813"
+paper_label: "arXiv"
+github_url: "https://github.com/Dylan-Wyl10/RoboSense"
 redirect_from:
   - /portfolio/03-dynamic-routing/
   - /portfolio/03-robosense/
@@ -9,7 +13,7 @@ redirect_from:
 
 **Authors**: Yilin Wang, Yiheng Feng (Purdue University)
 **Role**: Individual Research Project
-**Period**: Apr 2023 – Jun 2026
+**Period**: {{ page.project_period }}
 **Status**: Preprint, under review
 **Code**: [GitHub — Dylan-Wyl10/RoboSense](https://github.com/Dylan-Wyl10/RoboSense) · **Paper**: [arXiv preprint](https://arxiv.org/abs/2609.06813)
 
