@@ -21,10 +21,10 @@ Research Interests
 ======
 My research focuses on intelligent transportation systems and connected & automated vehicles (CAVs), with expertise in:
 
-- **LLM/VLM Agents & World Models for AV and Embodied AI**: Trajectory-planning foundation models for behavior simulation (sim agents), world-model construction, and safety-critical scenario generation with closed-loop validation
-- **Cooperative Perception**: V2X-based sensor fusion, infrastructure-vehicle cooperative perception systems, LiDAR and camera data processing
 - **Robotaxi & AV Fleet Operations**: Routing, dispatching, and repositioning at network scale via MILP and learning-based combinatorial optimization, with fleets doubling as mobile sensing platforms
-- **Physics-informed Machine Learning**: Integrating domain knowledge (e.g., car-following models) into deep learning for trajectory prediction
+- **LLM/VLM Agents & World Models for AV and Embodied AI**: Trajectory-planning foundation models for behavior simulation (sim agents), world-model construction, and safety-critical scenario generation with closed-loop validation
 - **Agentic System Implementation & Deployment**: Multi-agent architectures, tool orchestration (MCP), and agent evaluation for production workflows, from smart-city and robotaxi operations to automated research pipelines
+- **Cooperative Perception & V2X Systems**: From algorithms to real-world field deployment, including V2X-based sensor fusion, infrastructure-vehicle cooperative perception systems, and LiDAR and camera data processing
+- **Physics-informed Machine Learning**: Integrating domain knowledge (e.g., car-following models) into deep learning for trajectory prediction
 
 I integrate multi-modal data (e.g., UAV videos, LiDAR, V2X) with machine learning to enhance mobility, safety, and system optimality. I have led projects funded by agencies including FHWA, Michigan DOT, and CCAT, and am passionate about turning rigorous research into deployable systems that improve real-world transportation networks.
