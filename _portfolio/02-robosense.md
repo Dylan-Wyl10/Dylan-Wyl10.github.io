@@ -14,7 +14,7 @@ redirect_from:
 **Authors**: Yilin Wang, Yiheng Feng (Purdue University)
 **Role**: Individual Research Project
 **Period**: {{ page.project_period }}
-**Status**: Preprint, under review
+**Status**: Preprint, under review; scheduled for presentation at the INFORMS 2026 Annual Meeting (Nov 3, 2026)
 **Code**: [GitHub — Dylan-Wyl10/RoboSense](https://github.com/Dylan-Wyl10/RoboSense) · **Paper**: [arXiv preprint](https://arxiv.org/abs/2609.06813)
 
 ## Overview

@@ -2,12 +2,12 @@
 title: "Developing V2X System for Traffic Signal Control"
 excerpt: "Multiple projects funded by US-DOT, Michigan DOT, and Leidos Inc. on V2X-based transit signal priority and co-simulation platforms."
 collection: portfolio
-project_period: "Started Sep 2021"
+project_period: "Sep 2021 – Jun 2026"
 github_url: "https://github.com/Dylan-Wyl10/mmitss-CART"
 ---
 
 **Role**: Research Developer
-**Period**: Sept 2021 – Present
+**Period**: {{ page.project_period }}
 **Funding**: US-DOT, Michigan DOT, Leidos Inc.
 
 ## Part 1: Smart Intersection Project
