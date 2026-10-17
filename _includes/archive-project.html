@@ -15,6 +15,9 @@
       {% if project.github_url %}
         <a href="{{ project.github_url | escape }}" aria-label="GitHub repository for {{ project.title | escape }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
       {% endif %}
+      {% if project.demo_url %}
+        <a href="{{ project.demo_url | relative_url }}" aria-label="{{ project.demo_label | default: 'Demo' | escape }} for {{ project.title | escape }}"><i class="fas fa-play-circle" aria-hidden="true"></i> {{ project.demo_label | default: 'Demo' | escape }}</a>
+      {% endif %}
     </div>
     {% if project.excerpt %}
       <div class="archive__item-excerpt" itemprop="description">{{ project.excerpt | markdownify }}</div>
