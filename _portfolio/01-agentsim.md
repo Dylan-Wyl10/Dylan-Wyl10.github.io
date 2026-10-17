@@ -9,10 +9,6 @@ redirect_from:
   - /portfolio/01-terasim/
 ---
 
-**Role**: Initiator and primary developer | Inchor (SaferDrive AI)
-**Period**: {{ page.project_period }}
-**Demo**: [Three real drives, each mutated into safety-critical variants](/agentsim-demo/)
-
 ## Overview
 AgentSim is an agentic world model for autonomous-driving safety validation. Instead of hand-written test scenarios, a multi-agent framework powered by LLMs and VLMs takes a real logged drive and mutates it into safety-critical corner cases, for example a lead car that brakes hard, a car that cuts in, a red-light runner, or a pedestrian crossing. Each mutation runs in closed loop: every other road user follows its recorded path until the mutation reaches it and then reacts, so the variants stay grounded in the original traffic. A video world model then renders each variant as a front-camera clip from the same first frame as the logged drive, so the clips differ only where the mutation changes the traffic.
 
