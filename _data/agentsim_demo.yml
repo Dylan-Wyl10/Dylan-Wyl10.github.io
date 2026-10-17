@@ -1,7 +1,9 @@
 # AgentSim website demo: three Waymo Open Motion Dataset drives, each replayed (base)
 # and mutated by AgentSim, rendered as 12 s front-camera clips by a video world model.
 # Source package: ~/Research/AgentSim/renders/AgentSim/website_demo/manifest.json (AgentSim repo PR #25).
-# Edit titles/descriptions here; the page at _pages/agentsim-demo.md loops over this file.
+# Each group has one synchronized grid video (grid.mp4, built from the clips with the short
+# `label` burned into each cell) plus the individual clips. The page at _pages/agentsim-demo.md
+# and the include _includes/agentsim-grid.html loop over this file; edit text here.
 title: 'AgentSim: closed-loop scenario mutations of real drives, rendered by a video world model'
 asset_root: /assets/demo/agentsim
 groups:
@@ -10,33 +12,43 @@ groups:
   dataset: Waymo Open Motion Dataset v1 validation
   scenario_id: d1988864008fc062
   contact_sheet: contact_sheet.jpg
+  grid_video: grid.mp4
+  grid_poster: grid.jpg
+  grid_width: 1920
+  grid_height: 704
   clips:
   - index: base
+    label: 'Base · logged drive'
     description: 'The logged drive: the ego pulls away from a queue and crosses a signalized intersection.'
     video: clips/base.mp4
     poster: clips/base.jpg
     duration_s: 11.9
   - index: var1
+    label: 'Var 1 · lead car brakes hard at 3 s'
     description: The lead car brakes hard at 3 s; the ego stops behind it.
     video: clips/var1.mp4
     poster: clips/var1.jpg
     duration_s: 11.9
   - index: var2
+    label: 'Var 2 · car cuts in and brakes'
     description: A car cuts in from the next lane and brakes; the ego brakes.
     video: clips/var2.mp4
     poster: clips/var2.jpg
     duration_s: 11.9
   - index: var3
+    label: 'Var 3 · red-light runner crosses'
     description: A red-light runner crosses in front of the ego; the ego brakes.
     video: clips/var3.mp4
     poster: clips/var3.jpg
     duration_s: 11.9
   - index: var4
+    label: 'Var 4 · pedestrian crosses ahead'
     description: A pedestrian crosses the road ahead; the ego yields.
     video: clips/var4.mp4
     poster: clips/var4.jpg
     duration_s: 11.9
   - index: var5
+    label: 'Var 5 · lead car brakes, then creeps on'
     description: The lead car brakes hard, then creeps on; the ego follows.
     video: clips/var5.mp4
     poster: clips/var5.jpg
@@ -46,28 +58,37 @@ groups:
   dataset: Waymo Open Motion Dataset v1 validation
   scenario_id: 5c14062cdca66b03
   contact_sheet: contact_sheet.jpg
+  grid_video: grid.mp4
+  grid_poster: grid.jpg
+  grid_width: 1920
+  grid_height: 704
   clips:
   - index: base
+    label: 'Base · logged drive'
     description: 'The logged drive: the ego accelerates from 12 to 53 km/h through a busy signalized intersection.'
     video: clips/base.mp4
     poster: clips/base.jpg
     duration_s: 11.9
   - index: var1
+    label: 'Var 1 · lead car brakes, stays stopped'
     description: The lead car brakes hard right away and stays stopped; the ego stops behind it.
     video: clips/var1.mp4
     poster: clips/var1.jpg
     duration_s: 11.9
   - index: var2
+    label: 'Var 2 · cut-in at 2 s, brakes hard'
     description: A car cuts in from the next lane at 2 s and brakes hard; the ego brakes to a stop.
     video: clips/var2.mp4
     poster: clips/var2.jpg
     duration_s: 11.9
   - index: var3
+    label: 'Var 3 · red-light runner crosses at 4 s'
     description: A red-light runner crosses in front of the ego at 4 s; the ego brakes to 9 km/h.
     video: clips/var3.mp4
     poster: clips/var3.jpg
     duration_s: 11.9
   - index: var4
+    label: 'Var 4 · pedestrian crosses at crosswalk'
     description: A pedestrian crosses at the crosswalk ahead; the ego stops for them.
     video: clips/var4.mp4
     poster: clips/var4.jpg
@@ -77,23 +98,31 @@ groups:
   dataset: Waymo Open Motion Dataset v1 validation
   scenario_id: 8bdbbe8276d03a1f
   contact_sheet: contact_sheet.jpg
+  grid_video: grid.mp4
+  grid_poster: grid.jpg
+  grid_width: 1280
+  grid_height: 704
   clips:
   - index: base
+    label: 'Base · logged drive'
     description: 'The logged drive: the ego accelerates from 30 to 58 km/h along a wide signalized arterial.'
     video: clips/base.mp4
     poster: clips/base.jpg
     duration_s: 11.9
   - index: var1
+    label: 'Var 1 · lead car brakes hard at 2.5 s'
     description: The lead car brakes hard at 2.5 s; the ego slows to 15 km/h behind it.
     video: clips/var1.mp4
     poster: clips/var1.jpg
     duration_s: 11.9
   - index: var2
+    label: 'Var 2 · red-light runner crosses at 5 s'
     description: A red-light runner crosses the intersection ahead at 5 s; the ego brakes.
     video: clips/var2.mp4
     poster: clips/var2.jpg
     duration_s: 11.9
   - index: var3
+    label: 'Var 3 · pedestrian crosses ahead'
     description: A pedestrian crosses the road ahead; the ego brakes to walking pace.
     video: clips/var3.mp4
     poster: clips/var3.jpg
