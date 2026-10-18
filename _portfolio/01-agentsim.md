@@ -30,4 +30,4 @@ AgentSim is built within TeraSim, the city-scale simulation platform of Inchor (
 
 **Tech Stack**: Python, SUMO, PyTorch, CUDA, Docker, FastAPI
 
-*Driving scenes in the demo come from the Waymo Open Motion Dataset (non-commercial license). First frames generated with NVIDIA Cosmos-Transfer1; videos generated with NVIDIA OmniDreams.*
+<p class="agentsim-note agentsim-attribution">Waymo Open Dataset: An autonomous driving dataset. <a href="https://www.waymo.com/open">https://www.waymo.com/open</a>, 2019–2025.</p>
