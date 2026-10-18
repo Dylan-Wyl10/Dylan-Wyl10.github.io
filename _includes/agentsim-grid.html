@@ -1,0 +1,29 @@
+{% comment %}
+One AgentSim case: a single synchronized grid video (logged drive + variants, labels burned in)
+followed by a compact legend with the full descriptions. Pass one entry of
+site.data.agentsim_demo.groups as the "group" parameter. Include agentsim-demo-assets.html
+once per page for the styles and the play-on-scroll script.
+{% endcomment %}
+{% include base_path %}
+{% assign group = include.group %}
+{% assign gdir = site.data.agentsim_demo.asset_root | append: "/" | append: group.key %}
+<div class="agentsim-case" id="{{ group.key }}">
+  <video class="agentsim-grid" muted loop playsinline controls preload="none"
+         width="{{ group.grid_width }}" height="{{ group.grid_height }}"
+         poster="{{ base_path }}{{ gdir }}/{{ group.grid_poster }}"
+         aria-label="{{ group.title | escape }}: {{ group.clips.size }} synchronized clips, the logged drive and {{ group.clips.size | minus: 1 }} AgentSim variants">
+    <source src="{{ base_path }}{{ gdir }}/{{ group.grid_video }}" type="video/mp4">
+    <a href="{{ base_path }}{{ gdir }}/{{ group.grid_video }}">Download the grid video (MP4)</a>.
+  </video>
+  <p class="agentsim-case__meta">{{ group.dataset }}, scene <code>{{ group.scenario_id }}</code>.
+    One box, {{ group.clips.size }} time-synchronized clips: the logged drive and {{ group.clips.size | minus: 1 }} AgentSim variants, all from the same first frame.</p>
+  <ul class="agentsim-legend">
+  {% for clip in group.clips %}
+    <li>
+      <span class="agentsim-tag{% if clip.index == 'base' %} agentsim-tag--base{% endif %}">{% if clip.index == 'base' %}Base{% else %}Var {{ clip.index | remove: 'var' }}{% endif %}</span>
+      {{ clip.description }}
+      <a class="agentsim-clip-link" href="{{ base_path }}{{ gdir }}/{{ clip.video }}" aria-label="Open the {{ clip.index }} clip on its own">clip</a>
+    </li>
+  {% endfor %}
+  </ul>
+</div>
