@@ -1,7 +1,8 @@
 # AgentSim website demo: three Waymo Open Motion Dataset drives, each replayed (base)
 # and mutated by AgentSim, rendered as 12 s front-camera clips by a video world model.
 # Source package: ~/Research/AgentSim/renders/AgentSim/website_demo/manifest.json (AgentSim repo PR #25,
-# refreshed 2026-10-17 so every drive has base + 5 variants).
+# refreshed 2026-10-17 so every drive has base + 5 variants; third drive swapped for a freeway scene on
+# 2026-10-19, YIL-216).
 # Each group has one synchronized grid video (grid.mp4, built by scripts/agentsim_demo_grids.py from the
 # clips with the short `label` burned into each cell) plus the individual clips. The page at
 # _pages/agentsim-demo.md and the include _includes/agentsim-grid.html loop over this file; edit text here.
@@ -100,10 +101,10 @@ groups:
     video: clips/var5.mp4
     poster: clips/var5.jpg
     duration_s: 11.9
-- key: womd_8bdbbe82
-  title: 'Wide signalized arterial: the ego accelerates to 58 km/h'
+- key: womd_909244b8
+  title: 'Freeway, no junction: the ego cruises in dense traffic at about 50 km/h'
   dataset: Waymo Open Motion Dataset v1 validation
-  scenario_id: 8bdbbe8276d03a1f
+  scenario_id: 909244b878c6c203
   contact_sheet: contact_sheet.jpg
   grid_video: grid.mp4
   grid_poster: grid.jpg
@@ -112,37 +113,39 @@ groups:
   clips:
   - index: base
     label: Base · logged drive
-    description: 'The logged drive: the ego accelerates from 30 to 58 km/h along a wide signalized arterial.'
+    description: 'The logged drive: the ego cruises at 43 to 52 km/h in dense freeway traffic while trucks pass
+      on the left.'
     video: clips/base.mp4
     poster: clips/base.jpg
     duration_s: 11.9
   - index: var1
-    label: Var 1 · lead car brakes hard at 2.5 s
-    description: The lead car brakes hard at 2.5 s; the ego slows to 15 km/h behind it.
+    label: Var 1 · car ahead brakes hard at 2 s
+    description: The car ahead brakes hard at 2 s and stops; the ego slows to 5 km/h behind it.
     video: clips/var1.mp4
     poster: clips/var1.jpg
     duration_s: 11.9
   - index: var2
-    label: Var 2 · cut-in from the left at 2 s
-    description: A car cuts in from the left lane at 2 s; the ego slows to 6 km/h behind it.
+    label: Var 2 · cut-in from the left at 1 s
+    description: A car from the left lane cuts in just ahead at 1 s and brakes; the ego slows to 3 km/h.
     video: clips/var2.mp4
     poster: clips/var2.jpg
     duration_s: 11.9
   - index: var3
-    label: Var 3 · red-light runner crosses at 5 s
-    description: A red-light runner crosses the intersection ahead at 5 s; the ego brakes to 17 km/h.
+    label: Var 3 · cut-in from the right at 1.5 s
+    description: A car from the right lane cuts in ahead at 1.5 s and brakes; the ego slows to 4 km/h.
     video: clips/var3.mp4
     poster: clips/var3.jpg
     duration_s: 11.9
   - index: var4
-    label: Var 4 · pedestrian crosses ahead
-    description: A pedestrian crosses the road ahead; the ego brakes to walking pace.
+    label: Var 4 · slow SUV merges from the right
+    description: A large SUV merges in from the right and keeps a low speed; the ego slows to 19 km/h behind it.
     video: clips/var4.mp4
     poster: clips/var4.jpg
     duration_s: 11.9
   - index: var5
-    label: Var 5 · lead car brakes late at 5.5 s
-    description: The lead car brakes late, at 5.5 s; the ego slows from 50 to 14 km/h.
+    label: Var 5 · car two ahead stops in lane
+    description: The car two ahead stops in the lane like a broken-down car; the lead car and the ego stop behind
+      it.
     video: clips/var5.mp4
     poster: clips/var5.jpg
     duration_s: 11.9
