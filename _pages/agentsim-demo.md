@@ -31,9 +31,8 @@ muted and loop; they start playing when scrolled into view. Each legend entry li
     #main .page { float: none; width: 100%; padding-left: 0; padding-right: 0; }
   }
   .agentsim-lead { font-size: 1.05em; }
-  .agentsim-howto, .agentsim-note { font-size: 0.85em; color: var(--global-text-color-light); }
+  .agentsim-howto { font-size: 0.85em; color: var(--global-text-color-light); }
   .agentsim-group { margin-top: 2.5em; }
-  .agentsim-credits { margin-top: 2.5em; }
 </style>
 
 {% for group in demo.groups %}
@@ -51,16 +50,4 @@ muted and loop; they start playing when scrolled into view. Each legend entry li
 </section>
 {% endfor %}
 
-<section class="agentsim-credits">
-  <h2>Credits</h2>
-  <p>
-    Driving scenes from the <a href="https://waymo.com/open/">Waymo Open Motion Dataset</a>, used under the
-    Waymo Open Dataset License Agreement for Non-Commercial Use. First frames generated with NVIDIA
-    Cosmos-Transfer1 (NVIDIA Open Model License). Videos generated with NVIDIA OmniDreams. This page shows
-    rendered videos and images only; no dataset files are redistributed.
-  </p>
-  <p class="agentsim-note">
-    These are research outputs. The rendered videos follow AgentSim's simulated traffic closely but not
-    exactly; small, distant road users are occasionally not drawn.
-  </p>
-</section>
+<p class="agentsim-note agentsim-attribution">Waymo Open Dataset: An autonomous driving dataset. <a href="https://www.waymo.com/open">https://www.waymo.com/open</a>, 2019–2025.</p>
