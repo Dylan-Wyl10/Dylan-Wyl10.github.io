@@ -12,8 +12,7 @@ redirect_from:
 {% assign demo = site.data.agentsim_demo %}
 
 <p class="agentsim-lead">
-AgentSim is an agentic world model for autonomous-driving safety validation. Starting from a real logged drive
-(its trajectory and map) and a sentence or two describing the risk to add, LLM/VLM agents write safety-critical
+AgentSim is an agentic world model for autonomous-driving safety validation. Starting from trajectories from real world with a sentence or two describing the risk to add, LLM/VLM agents create safety-critical
 variants of the drive: a lead car that brakes hard, a car that cuts in, a red-light runner, a pedestrian crossing.
 Each variant runs in closed loop, so every other road user follows its recorded path until the mutation reaches it
 and then reacts, and the variant stays grounded in the original traffic. A video world model then renders each
