@@ -4,8 +4,8 @@
 # refreshed 2026-10-17 so every drive has base + 5 variants; third drive swapped for a freeway scene on
 # 2026-10-19, YIL-216).
 # Each group has one synchronized grid video (grid.mp4, built by scripts/agentsim_demo_grids.py from the
-# clips with the short `label` burned into each cell) plus the individual clips. The page at
-# _pages/agentsim-demo.md and the include _includes/agentsim-grid.html loop over this file; edit text here.
+# clips with the short `label` burned into each cell) plus the individual clips. The project page
+# _portfolio/01-agentsim.md and the include _includes/agentsim-grid.html loop over this file; edit text here.
 title: 'AgentSim: closed-loop scenario mutations of real drives, rendered by a video world model'
 asset_root: /assets/demo/agentsim
 groups:
