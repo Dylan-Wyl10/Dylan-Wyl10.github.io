@@ -9,7 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
-Here is my full CV: [Yilin Wang's Resume](../assets/Resume_YilinWang.pdf)
+Industry resume: [Yilin Wang's Resume](../assets/Resume_YilinWang.pdf)
+
+Academic CV: [Yilin Wang's Academic CV](../assets/CV_YilinWang_Academic.pdf)
 
 Education
 ======

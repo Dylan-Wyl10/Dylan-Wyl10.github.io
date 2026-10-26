@@ -15,7 +15,9 @@ With a multidisciplinary background spanning **civil engineering** (B.S., Tongji
 
 I completed a Simulation Development Engineer internship at **Inchor (SaferDrive AI)** (Dec 2025 – Jun 2026) and continue as a core developer of **TeraSim**, a city-scale agentic world model platform for autonomous vehicle safety validation.
 
-You can find my CV here: [Yilin Wang's Resume](../assets/Resume_YilinWang.pdf)
+Industry resume: [Yilin Wang's Resume](../assets/Resume_YilinWang.pdf)
+
+Academic CV: [Yilin Wang's Academic CV](../assets/CV_YilinWang_Academic.pdf)
 
 Research Interests
 ======
