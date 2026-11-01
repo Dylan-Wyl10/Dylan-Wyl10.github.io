@@ -13,7 +13,7 @@ Here is my full CV: [Yilin Wang's Resume](../assets/Resume_YilinWang.pdf)
 
 Education
 ======
-* Ph.D. in Civil Engineering (Intelligent Transportation System), Purdue University, Spring 2027 (expected)
+* Ph.D. in Civil Engineering (Transportation and Infrastructure Systems Engineering), Purdue University, May 2027 (expected)
   * Research Area: Connected and Automated Vehicle, Cooperative Perception, Physics-informed Machine Learning, Network Operation and Control
   * GPA: 3.8/4.00
 * M.S. in Advanced Infrastructure System, Carnegie Mellon University, 2020
