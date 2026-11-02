@@ -8,4 +8,4 @@ date: 2024-06-01
 location: "Jeju Island, South Korea"
 ---
 
-Research presentation on integrating the Intelligent Driving Model (IDM) into a physics-informed neural network for car-following trajectory prediction.
+Research presentation on integrating the Intelligent Driver Model (IDM) into a physics-informed neural network for car-following trajectory prediction.
