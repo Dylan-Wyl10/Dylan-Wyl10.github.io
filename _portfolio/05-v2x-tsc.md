@@ -1,6 +1,6 @@
 ---
 title: "Cooperative Driving Automation System for Urban Areas (MMITSS)"
-excerpt: "MMITSS, an open-source connected-vehicle signal priority system: field deployments at Mcity and on Ann Arbor's Ellsworth Road corridor (USDOT FHWA), the Detroit QLine extension (WSP for Michigan DOT), CDASim co-simulation integration (Leidos for USDOT FHWA), and a signal-aware connected vehicle."
+excerpt: "MMITSS, an open-source connected-vehicle signal priority system: deployments at Mcity and on Ann Arbor's Ellsworth Road corridor (USDOT FHWA), MMITSS for the Detroit QLine (WSP for Michigan DOT), integration into FHWA's CDASim co-simulation (Leidos for USDOT FHWA), and a signal-aware connected vehicle."
 collection: portfolio
 project_period: "Sept 2021 – Jun 2026"
 github_url: "https://github.com/Dylan-Wyl10/mmitss-CART"
