@@ -41,19 +41,21 @@ Research and Professional Experience
   * Cooperative driving automation projects funded by USDOT, Michigan DOT, and Leidos: lead developer and researcher of the Smart Intersections project, mentor and developer for the Detroit QLine, CDASim development with Leidos, and a V2X-based connected automated vehicle ([MMITSS](/portfolio/05-v2x-tsc/)).
   * Project leader of a cooperative perception project: a CAV safety study funded by NSF, then an infrastructure-vehicle cooperative perception system funded by the Center for Connected and Automated Transportation (CCAT) ([project page](/portfolio/03-cooperative-perception/)).
   * Teaching assistant for CCE 361 and guest lecturer for CCE 565 ([Teaching](/teaching/)).
-* Dec 2025 – Jun 2026: **Simulation Development Engineer Intern**, Inchor (SaferDrive AI), Ann Arbor, MI
+* Dec 2025 – Jun 2026: **Simulation Technical Leader Intern**, Inchor (SaferDrive AI), Ann Arbor, MI
   * Supervisor: Prof. Henry Liu
-  * **TeraSim: Naturalistic Driving Behavior** ([project page](/portfolio/06-terasim/))
+  * **TeraSim: Naturalistic Driving Behavior** (core developer, Dec 2025 – Mar 2026; [project page](/portfolio/06-terasim/))
     * Core developer of TeraSim, an open-source city-scale traffic simulation platform for AV safety testing.
     * Led integration of MotionTransformer as the foundation model of NNDE, generating naturalistic driving behavior at city scale alongside the NADE adversarial-scenario module; refactored the behavior-model pipeline from a dual-state design into a stateless prediction pipeline for large-scale inference.
     * Implemented vehicle state synchronization, history tensor construction, and coordinate transformation for large-scale MotionTransformer inference.
-    * Implemented a full-stack Driving Foundation Model into product; led the joint project with NVIDIA and the City of San Jose on agent-driven Smart City operation.
+    * Implemented a full-stack Driving Foundation Model into product; secured and led the company's collaboration with NVIDIA and the City of San Jose on agent-driven Smart City operation, supporting the deployment of the NVIDIA Metropolis Blueprint in the San Jose city POC on the simulation and traffic-control sides ([video](https://www.youtube.com/watch?v=hwLLBfzoSko)).
     * For that project, led a city-scale urban simulation demo under the NVIDIA Metropolis Blueprint: an integrated "City Operations Agent" and digital twin that perceive, simulate, and optimize traffic operations; designed the full simulation pipeline, including city-scale vehicle injection, dynamic routing, and multi-phase demo orchestration.
     * The TeraSim demo with NVIDIA and the City of San Jose was selected for NVIDIA CEO Jensen Huang's GTC 2026 keynote.
-  * **AgentSim: Agentic Synthetic Scenario Generation** (initiator, Mar 2026 – Present; [demo](/portfolio/01-agentsim/))
+  * **AgentSim: Agentic Synthetic Scenario Generation** (initiator and lead architect, Mar 2026 – Present; [demo](/portfolio/01-agentsim/))
     * An end-to-end pipeline from a trajectory or text description to safety-critical scenarios with ego camera-view data.
     * An agentic platform in which LLM/VLM agents collaborate to reconstruct, mutate, and render driving scenarios.
     * The agents take a real logged drive and mutate it into safety-critical variants (a lead car braking hard, a cut-in, a red-light runner, a pedestrian crossing). Each variant runs in closed loop, so other road users follow their recorded paths until the mutation reaches them and then react; a video world model renders each variant as front-camera video.
+    * The closed-loop simulation base was built from scratch, embedded with neural behavior models and supporting multi-modal inputs, and the pipeline includes full scene reconstruction from trajectory-only data; the whole pipeline is benchmarked on the Waymo Open Dataset.
+  * **Product development**: built TeraSim and AgentSim into services for paying enterprise customers, delivering test scenarios and simulation environments with fast deployment and packaged delivery.
   * **Safety Instinct for Physical AI**: independent project, Feb 2026 – Apr 2026 ([project page](/portfolio/07-safety-instinct/)).
 * Jan 2020 – Dec 2020: **Research Assistant**, Carnegie Mellon University, Pittsburgh, PA
   * Supervisor: Prof. Pingbo Tang

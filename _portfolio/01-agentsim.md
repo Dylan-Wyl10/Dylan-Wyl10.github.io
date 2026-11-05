@@ -1,5 +1,5 @@
 ---
-title: "AgentSim: An Agentic Test Engineer for Autonomous-Driving Safety Validation"
+title: "AgentSim: Agentic World Model for AV/Physical AI Validation"
 excerpt: "Initiated and developed at Inchor (SaferDrive AI). LLM/VLM agents mutate real logged drives into safety-critical corner cases, replay them in closed loop, and a video world model renders the result."
 collection: portfolio
 project_period: "Mar 2026 – Present"
