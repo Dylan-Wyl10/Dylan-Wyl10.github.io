@@ -7,7 +7,7 @@ project_period: "Feb 2026 – Apr 2026"
 
 - **Role**: independent research, conceived and completed independently
 - **Period**: Feb 2026 – Apr 2026
-- **Affiliation**: Inchor (SaferDrive AI), during the Simulation Development Engineer internship
+- **Affiliation**: Inchor (SaferDrive AI), during the Simulation Technical Leader internship
 - **Status**: completed; an internal exploration
 
 ## Overview
