@@ -44,10 +44,10 @@ Research and Professional Experience
 * Dec 2025 – Jun 2026: **Simulation Technical Leader Intern**, Inchor (SaferDrive AI), Ann Arbor, MI
   * Supervisor: Prof. Henry Liu
   * **TeraSim: Naturalistic Driving Behavior** (core developer, Dec 2025 – Mar 2026; [project page](/portfolio/06-terasim/))
-    * Core developer of TeraSim, an open-source city-scale traffic simulation platform for AV safety testing, delivered to paying enterprise customers.
+    * Core developer of TeraSim, an open-source city-scale traffic simulation platform for AV safety testing.
     * Led integration of MotionTransformer as the foundation model of NNDE, generating naturalistic driving behavior at city scale alongside the NADE adversarial-scenario module; refactored the behavior-model pipeline from a dual-state design into a stateless prediction pipeline for large-scale inference.
     * Implemented vehicle state synchronization, history tensor construction, and coordinate transformation for large-scale MotionTransformer inference.
-    * Implemented a full-stack Driving Foundation Model into product; independently secured and led the joint project with NVIDIA and the City of San Jose on agent-driven Smart City operation.
+    * Implemented a full-stack Driving Foundation Model into product; secured and led the company's collaboration with NVIDIA and the City of San Jose on agent-driven Smart City operation, supporting the deployment of the NVIDIA Metropolis Blueprint in the San Jose city POC on the simulation and traffic-control sides ([video](https://www.youtube.com/watch?v=hwLLBfzoSko)).
     * For that project, led a city-scale urban simulation demo under the NVIDIA Metropolis Blueprint: an integrated "City Operations Agent" and digital twin that perceive, simulate, and optimize traffic operations; designed the full simulation pipeline, including city-scale vehicle injection, dynamic routing, and multi-phase demo orchestration.
     * The TeraSim demo with NVIDIA and the City of San Jose was selected for NVIDIA CEO Jensen Huang's GTC 2026 keynote.
   * **AgentSim: Agentic Synthetic Scenario Generation** (initiator and lead architect, Mar 2026 – Present; [demo](/portfolio/01-agentsim/))
@@ -55,6 +55,7 @@ Research and Professional Experience
     * An agentic platform in which LLM/VLM agents collaborate to reconstruct, mutate, and render driving scenarios.
     * The agents take a real logged drive and mutate it into safety-critical variants (a lead car braking hard, a cut-in, a red-light runner, a pedestrian crossing). Each variant runs in closed loop, so other road users follow their recorded paths until the mutation reaches them and then react; a video world model renders each variant as front-camera video.
     * The closed-loop simulation base was built from scratch, embedded with neural behavior models and supporting multi-modal inputs, and the pipeline includes full scene reconstruction from trajectory-only data; the whole pipeline is benchmarked on the Waymo Open Dataset.
+  * **Product development**: built TeraSim and AgentSim into services for paying enterprise customers, delivering test scenarios and simulation environments with fast deployment and packaged delivery.
   * **Safety Instinct for Physical AI**: independent project, Feb 2026 – Apr 2026 ([project page](/portfolio/07-safety-instinct/)).
 * Jan 2020 – Dec 2020: **Research Assistant**, Carnegie Mellon University, Pittsburgh, PA
   * Supervisor: Prof. Pingbo Tang

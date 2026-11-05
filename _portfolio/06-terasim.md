@@ -11,7 +11,7 @@ redirect_from:
 - **Period**: Dec 2025 – Mar 2026, during the Simulation Technical Leader internship (Dec 2025 – Jun 2026)
 - **Affiliation**: Inchor (SaferDrive AI), Ann Arbor, MI; joint project with NVIDIA and the City of San Jose
 - **Status**: completed (Mar 2026)
-- **Links**: [NVIDIA press release, Mar 16, 2026](https://nvidianews.nvidia.com/news/nvidia-t-mobile-and-partners-integrate-physical-ai-applications-on-ai-ran-ready-infrastructure) · [GTC 2026 news post]({{ site.baseurl }}{% post_url 2026-03-16-terasim-gtc-2026-keynote %})
+- **Links**: [NVIDIA press release, Mar 16, 2026](https://nvidianews.nvidia.com/news/nvidia-t-mobile-and-partners-integrate-physical-ai-applications-on-ai-ran-ready-infrastructure) · [GTC 2026 news post]({{ site.baseurl }}{% post_url 2026-03-16-terasim-gtc-2026-keynote %}) · [NVIDIA video on YouTube](https://www.youtube.com/watch?v=hwLLBfzoSko)
 
 ## Overview
 TeraSim is an open-source, city-scale traffic simulation platform for autonomous vehicle (AV) safety testing, enabling naturalistic and adversarial testing of AVs at urban scale. The internship work centered on two parts: NNDE, the naturalistic driving behavior layer of TeraSim, and a joint project with NVIDIA and the City of San Jose on agent-driven Smart City operation. It also included implementing a full-stack Driving Foundation Model into product.
@@ -24,7 +24,7 @@ NNDE (Neural-network Naturalistic Driving Environment) is the behavioral-layer f
 - Implemented vehicle state synchronization, history tensor construction, and coordinate transformation for large-scale MotionTransformer inference.
 
 ## Part 2: City-Scale Demo with NVIDIA and the City of San Jose
-- Led the joint project with NVIDIA and the City of San Jose on agent-driven Smart City operation.
+- Secured and led the company's collaboration with NVIDIA and the City of San Jose on agent-driven Smart City operation, supporting the deployment of the NVIDIA Metropolis Blueprint in the San Jose city POC on the simulation and traffic-control sides.
 - For that project, led a city-scale urban simulation demo under the NVIDIA Metropolis Blueprint: an integrated "City Operations Agent" and digital twin that perceive, simulate, and optimize traffic operations.
 - Designed the full simulation pipeline, including city-scale vehicle injection, dynamic routing, and multi-phase demo orchestration.
 - The demo was selected for NVIDIA CEO Jensen Huang's GTC 2026 keynote (Mar 16, 2026, San Jose, CA).
