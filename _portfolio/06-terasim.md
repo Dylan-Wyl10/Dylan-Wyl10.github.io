@@ -2,15 +2,15 @@
 title: "TeraSim: City-Scale World Model for Safety Testing on AV and Physical AI"
 excerpt: "Core developer of TeraSim, an open-source city-scale traffic simulation platform for AV safety testing: MotionTransformer-based naturalistic driving behavior (NNDE), and a city-scale NVIDIA Metropolis Blueprint demo with NVIDIA and the City of San Jose that was selected for the GTC 2026 keynote."
 collection: portfolio
-project_period: "Dec 2025 – Jun 2026"
+project_period: "Dec 2025 – Mar 2026"
 redirect_from:
   - /portfolio/01-terasim/
 ---
 
 - **Role**: core developer of TeraSim; Simulation Development Engineer Intern
-- **Period**: Dec 2025 – Jun 2026 (internship)
+- **Period**: Dec 2025 – Mar 2026, during the Simulation Development Engineer internship (Dec 2025 – Jun 2026)
 - **Affiliation**: Inchor (SaferDrive AI), Ann Arbor, MI; joint project with NVIDIA and the City of San Jose
-- **Status**: completed with the internship (Jun 2026)
+- **Status**: completed (Mar 2026)
 - **Links**: [NVIDIA press release, Mar 16, 2026](https://nvidianews.nvidia.com/news/nvidia-t-mobile-and-partners-integrate-physical-ai-applications-on-ai-ran-ready-infrastructure) · [GTC 2026 news post]({{ site.baseurl }}{% post_url 2026-03-16-terasim-gtc-2026-keynote %})
 
 ## Overview
